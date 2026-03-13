@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mi Vita con QR</title>
+<title>CV Web</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
+
 <body>
 
-<h1>Mi Vita</h1>
-<p>La página ya está funcionando.</p>
+<h1 id="nombre"></h1>
+<p id="profesion"></p>
+<p id="telefono"></p>
+<p id="email"></p>
+<p id="descripcion"></p>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+Papa.parse("datos.csv", {
+download: true,
+header: true,
+complete: function(results) {
+
+const persona = results.data.find(p => p.id === id);
+
+if(persona){
+document.getElementById("nombre").innerText = persona.nombre;
+document.getElementById("profesion").innerText = persona.profesion;
+document.getElementById("telefono").innerText = persona.telefono;
+document.getElementById("email").innerText = persona.email;
+document.getElementById("descripcion").innerText = persona.descripcion;
+}
+
+}
+});
+
+</script>
 
 </body>
 </html>
