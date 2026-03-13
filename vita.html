@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi CV</title>
+</head>
+<body>
+
+<h1 id="nombre"></h1>
+<p id="profesion"></p>
+<p id="telefono"></p>
+<p id="email"></p>
+<p id="descripcion"></p>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+fetch("data.json")
+  .then(res => res.json())
+  .then(data => {
+    const persona = data.find(p => p.id == id);
+
+    document.getElementById("nombre").textContent = persona.nombre;
+    document.getElementById("profesion").textContent = persona.profesion;
+    document.getElementById("telefono").textContent = persona.telefono;
+    document.getElementById("email").textContent = persona.email;
+    document.getElementById("descripcion").textContent = persona.descripcion;
+  });
+</script>
+
+</body>
+</html>
