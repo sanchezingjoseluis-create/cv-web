@@ -23,7 +23,7 @@ download: true,
 header: true,
 complete: function(results) {
 
-const persona = results.data.find(p => p.id === id);
+const persona = results.data.find(p => p.id == id);
 
 if(persona){
 document.getElementById("nombre").innerText = persona.nombre;
