@@ -1,21 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Activo</title>
+<meta charset="UTF-8">
+<title>Sistema de Activos</title>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f9;
+  margin:0;
+}
+
+.container{
+  max-width:900px;
+  margin:40px auto;
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  border-bottom:1px solid #eee;
+  padding-bottom:20px;
+}
+
+#foto{
+  width:120px;
+  height:120px;
+  object-fit:cover;
+  border-radius:10px;
+  border:2px solid #ddd;
+}
+
+.title{
+  flex:1;
+}
+
+.title h1{
+  margin:0;
+}
+
+.estado{
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:12px;
+  display:inline-block;
+}
+
+.activo{ background:#d4edda; color:#155724; }
+.uso{ background:#fff3cd; color:#856404; }
+.inactivo{ background:#f8d7da; color:#721c24; }
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-top:20px;
+}
+
+.card{
+  background:#fafafa;
+  padding:15px;
+  border-radius:8px;
+  border:1px solid #eee;
+}
+
+.card b{
+  display:block;
+  margin-bottom:5px;
+  color:#555;
+}
+
+.footer{
+  margin-top:30px;
+  text-align:center;
+}
+
+.btn{
+  padding:10px 20px;
+  background:#007bff;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+</style>
 </head>
 
 <body>
 
-<h1>Detalle del Activo</h1>
+<div class="container">
 
-<img id="foto" width="200">
+  <div class="header">
+    <img id="foto">
+    
+    <div class="title">
+      <h1 id="nombre"></h1>
+      <span id="estado" class="estado"></span>
+    </div>
+  </div>
 
-<h2 id="nombre"></h2>
-<p><b>Descripción:</b> <span id="descripcion"></span></p>
-<p><b>Ubicación:</b> <span id="ubicacion"></span></p>
-<p><b>Responsable:</b> <span id="responsable"></span></p>
-<p><b>Estado:</b> <span id="estado"></span></p>
+  <div class="grid">
+    <div class="card">
+      <b>Descripción</b>
+      <span id="descripcion"></span>
+    </div>
+
+    <div class="card">
+      <b>Ubicación</b>
+      <span id="ubicacion"></span>
+    </div>
+
+    <div class="card">
+      <b>Responsable</b>
+      <span id="responsable"></span>
+    </div>
+
+    <div class="card">
+      <b>ID Activo</b>
+      <span id="idactivo"></span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button class="btn">Registrar mantenimiento</button>
+  </div>
+
+</div>
 
 <script>
 
@@ -23,19 +140,32 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 Papa.parse("datos.csv", {
-download: true,
-header: true,
-complete: function(results) {
+download:true,
+header:true,
+complete:function(results){
 
 const activo = results.data.find(p => p.id.trim() == id.trim());
 
 if(activo){
+
 document.getElementById("foto").src = activo.foto.trim();
 document.getElementById("nombre").innerText = activo.nombre;
 document.getElementById("descripcion").innerText = activo.descripcion;
 document.getElementById("ubicacion").innerText = activo.ubicacion;
 document.getElementById("responsable").innerText = activo.responsable;
-document.getElementById("estado").innerText = activo.estado;
+document.getElementById("idactivo").innerText = activo.id;
+
+const estado = document.getElementById("estado");
+estado.innerText = activo.estado;
+
+if(activo.estado.toLowerCase() == "activo"){
+  estado.classList.add("activo");
+}else if(activo.estado.toLowerCase() == "en uso"){
+  estado.classList.add("uso");
+}else{
+  estado.classList.add("inactivo");
+}
+
 }
 
 }
