@@ -11,7 +11,10 @@
 <p id="profesion"></p>
 <p id="telefono"></p>
 <p id="email"></p>
-<p id="descripcion"></p>
+<p id="descripcion">
+<p id="foto" width="200">
+</p>
+  
 
 <script>
 
@@ -31,6 +34,7 @@ document.getElementById("profesion").innerText = persona.profesion;
 document.getElementById("telefono").innerText = persona.telefono;
 document.getElementById("email").innerText = persona.email;
 document.getElementById("descripcion").innerText = persona.descripcion;
+document.getElementById("foto").src = persona.foto;
 }
 
 }
