@@ -1,4 +1,3 @@
 id,nombre,descripcion,ubicacion,responsable,estado,foto
 1,Laptop HP,Laptop oficina,Oficina 1,Juan Perez,Activo,laptop.jpg
-2,Impresora Epson,Impresora área admin,Oficina 2,Ana Lopez,En uso,impresora.jpg
-3,Monitor Dell,Monitor 24 pulgadas,Oficina 3,Carlos Ruiz,Disponible,monitor.jpg
+2,Impresora Epson,Impresora admin,Oficina 2,Ana Lopez,En uso,impresora.jpg
