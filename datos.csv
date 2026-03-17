@@ -1,3 +1,2 @@
-id,nombre,descripcion,ubicacion,responsable,estado,foto
-1,Laptop HP,Laptop oficina,Oficina 1,Juan Perez,Activo,planeacion.jpg
-2,Impresora Epson,Impresora admin,Oficina 2,Ana Lopez,En uso,impresora.jpg
+id,nombre,descripcion,ubicacion,responsable,foto,estado,serie,marca,modelo,color,area,fecha,condicion
+001,Impresora Epson L3560,Multifuncional,Sala,Juan Pérez,URL,Activo,XBCN081938,Epson,L3560,Negra,Secretaría,29/01/2026,Buena
