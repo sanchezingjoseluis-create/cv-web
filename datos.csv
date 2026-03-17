@@ -1,3 +1,4 @@
-id,nombre,profesion,telefono,email,descripcion,foto
-1,Juan Perez,Diseñador,555111,juan@mail.com,Diseñador gráfico,juan.webp
-2,Ana Lopez,Programadora,555222,ana@mail.com,Desarrolladora fullstack,planeacion.jpg
+id,nombre,descripcion,ubicacion,responsable,estado,foto
+1,Laptop HP,Laptop oficina,Oficina 1,Juan Perez,Activo,laptop.jpg
+2,Impresora Epson,Impresora área admin,Oficina 2,Ana Lopez,En uso,impresora.jpg
+3,Monitor Dell,Monitor 24 pulgadas,Oficina 3,Carlos Ruiz,Disponible,monitor.jpg
