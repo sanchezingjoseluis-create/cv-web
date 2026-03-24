@@ -156,10 +156,10 @@ h1{
     <p><b>No. Inventario:</b> <span id="idactivo"></span></p>
     <p><b>No. Serie:</b> <span id="serie"></span></p>
     <p><b>Fecha de adquisición:</b> <span id="fecha"></span></p>
-    <p><b>No. Inventario:</b> <span id="serie"></span></p>
 <p><b>Factura:</b> <span id="factura"></span></p>
 <p><b>Valor de adquisición:</b> <span id="valor"></span></p>
 <p><b>Fondo:</b> <span id="fondo"></span></p>
+    <p><b>No. Inventario:</b> <span id="inventario"></span></p>
   </div>
 
   <div class="card">
@@ -228,6 +228,7 @@ document.getElementById("factura").innerText = activo.factura || "N/A";
 document.getElementById("valor").innerText = activo.valor || "N/A";
 document.getElementById("fondo").innerText = activo.fondo || "N/A";
 document.getElementById("observaciones").innerText = activo.observaciones || "Sin observaciones";
+  document.getElementById("inventario").innerText = activo.inventario || "N/A";
 
 const estado = document.getElementById("estado");
 estado.innerText = activo.estado;
