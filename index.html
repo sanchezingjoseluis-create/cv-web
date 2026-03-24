@@ -20,6 +20,8 @@
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:flex-start;
+
 }
 .encabezado{
   width:500px;   /* más pequeño */
@@ -81,12 +83,9 @@ h1{
 
 
 .estado{
-  margin-top:10px;
-  padding:6px 15px;
-  border-radius:20px;
-  font-size:12px;
-  font-weight:bold;
-  display:inline-block; /* 🔥 CLAVE */
+  width:auto;           /* 🔥 evita que se estire */
+  align-self:flex-start; /* 🔥 se queda pequeño */
+
 
 }
 
