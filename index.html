@@ -156,6 +156,10 @@ h1{
     <p><b>No. Inventario:</b> <span id="idactivo"></span></p>
     <p><b>No. Serie:</b> <span id="serie"></span></p>
     <p><b>Fecha de adquisición:</b> <span id="fecha"></span></p>
+    <p><b>No. Serie:</b> <span id="serie"></span></p>
+<p><b>Factura:</b> <span id="factura"></span></p>
+<p><b>Valor de adquisición:</b> <span id="valor"></span></p>
+<p><b>Fondo:</b> <span id="fondo"></span></p>
   </div>
 
   <div class="card">
@@ -177,7 +181,10 @@ h1{
     <h3>⚙️ Estado del Bien</h3>
     <p id="condicion"></p>
   </div>
-
+<div class="card">
+  <h3>📝 Observaciones</h3>
+  <p id="observaciones"></p>
+</div>
     <div class="footer">
       <button class="btn" onclick="mantenimiento()">Registrar mantenimiento</button>
     </div>
@@ -217,6 +224,10 @@ document.getElementById("color").innerText = activo.color;
 document.getElementById("area").innerText = activo.area;
 document.getElementById("fecha").innerText = activo.fecha;
 document.getElementById("condicion").innerText = activo.condicion;
+document.getElementById("factura").innerText = activo.factura || "N/A";
+document.getElementById("valor").innerText = activo.valor || "N/A";
+document.getElementById("fondo").innerText = activo.fondo || "N/A";
+document.getElementById("observaciones").innerText = activo.observaciones || "Sin observaciones";
 
 const estado = document.getElementById("estado");
 estado.innerText = activo.estado;
