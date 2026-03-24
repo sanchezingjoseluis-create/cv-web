@@ -185,11 +185,12 @@ h1{
   <h3>📝 Observaciones</h3>
   <p id="observaciones"></p>
 </div>
+    </div>
     <div class="footer">
       <button class="btn" onclick="mantenimiento()">Registrar mantenimiento</button>
     </div>
 
-  </div>
+ 
 
   <div id="error" class="error"></div>
 
@@ -200,7 +201,7 @@ h1{
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
-Papa.parse("datos.csv", {
+Papa.parse("datos.csv?v=" + new Date().getTime(), {
 download:true,
 header:true,
 complete:function(results){
@@ -211,7 +212,7 @@ if(activo){
 
 document.getElementById("contenido").style.display="block";
 
-document.getElementById("foto").src = activo.foto;
+document.getElementById("foto").src = activo.foto.trim();
 document.getElementById("nombre").innerText = activo.nombre;
 document.getElementById("descripcion").innerText = activo.descripcion;
 document.getElementById("ubicacion").innerText = activo.ubicacion;
