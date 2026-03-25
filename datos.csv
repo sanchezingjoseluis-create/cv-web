@@ -1,30 +1,30 @@
-id,nombre,descripcion,ubicacion,responsable,foto,estado,serie,marca,modelo,color,area,fecha,condicion
-1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Comandacia municipal,C. VICENTE RIVERA MARIN,img/Escritorio1.jpg,ACTIVO,23CEDRO02CAOBA1322026,Cedro,Escritorio ,Caoba,Oficina de comandante ,23/02/2026,NUEVO EN BUEN ESTADO
-2,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",ComunicaciÃ³n social,C. RODRIGO RAMIREZ VIDAL,img/Escritorio2.jpg,ACTIVO,23CEDRO02CAOBA2322026,Cedro,Escritorio ,Caoba,Oficina de comunicacion social,23/02/2026,NUEVO EN BUEN ESTADO
-3,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Contralor,C. ALBERTO MENDOZA RAMIREZ,img/Escritorio3.jpg,ACTIVO,23CEDRO02CAOBA3322026,Cedro,Escritorio ,Caoba,Oficina de contraloria,23/02/2026,NUEVO EN BUEN ESTADO
-4,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Desarrollo social,C. ARTEMIO SANTOS VIDAL,img/Escritorio4.jpg,ACTIVO,23CEDRO02CAOBA4322026,Cedro,Escritorio ,Caoba,Oficina de desarrolloon social,23/02/2026,NUEVO EN BUEN ESTADO
-5,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Fiscalizacion,C.PRICILIANO GONZALEZ ROJAS,img/Escritorio5.jpg,ACTIVO,23CEDRO02CAOBA5322026,Cedro,Escritorio ,Caoba,Oficina de fiscalizacion,23/02/2026,NUEVO EN BUEN ESTADO
-6,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Fomento agropecuario,C.CATALINO DOMINGUEZ ANTONIO,img/Escritorio6.jpg,ACTIVO,23CEDRO02CAOBA6322026,Cedro,Escritorio ,Caoba,Oficina de oficial mayor,23/02/2026,NUEVO EN BUEN ESTADO
-7,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Mesa ganadera ,C.JONAS ANTONIO DE JESUS ,img/Escritorio7.jpg,ACTIVO,23CEDRO02CAOBA7322026,Cedro,Escritorio ,Caoba,Oficina de mesa ganadera,23/02/2026,NUEVO EN BUEN ESTADO
-8,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Obras publicas,C.GENARO MORALES MESTEGA,img/Escritorio8.jpg,ACTIVO,23CEDRO02CAOBA8322026,Cedro,Escritorio ,Caoba,Oficina de obras publicas,23/02/2026,NUEVO EN BUEN ESTADO
-9,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Obras publicas,C.ROSA ALICIA MORENO FONSECA,img/Escritorio9.jpg,ACTIVO,23CEDRO02CAOBA9322026,Cedro,Escritorio ,Caoba,Oficina de obras publicas,23/02/2026,NUEVO EN BUEN ESTADO
-10,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Planeacion ,C.A.RAFAEL LOPEZ RODRIGUEZ,img/Escritorio10.jpg,ACTIVO,23CEDRO02CAOBA10322026,Cedro,Escritorio ,Caoba,Oficina de planeacion,23/02/2026,NUEVO EN BUEN ESTADO
-11,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Sindica,C.TOBIAS HERNANDEZ SINFOROSO,img/Escritorio11.jpg,ACTIVO,23CEDRO02CAOBA11322026,Cedro,Escritorio ,Caoba,Oficina de sindicatura,23/02/2026,NUEVO EN BUEN ESTADO
-12,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Vectores,C.FRACISCO ANTONIO QUEZADA ALEAÃ‘OS,img/Escritorio12.jpg,ACTIVO,23CEDRO02CAOBA12322026,Cedro,Escritorio ,Caoba,Oficina de oficial mayor,23/02/2026,NUEVO EN BUEN ESTADO
-13,,,,,,,,,,,,,
-14,,,,,,,,,,,,,
-15,,,,,,,,,,,,,
-16,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+id,inventario,nombre,descripcion,ubicacion,responsable,foto,estado,serie,marca,modelo,color,area,fecha,condicion,factura,valor ,fondo,observaciones
+1,MSIN/26-29/CM-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Comandacia municipal,C. VICENTE RIVERA MARIN,Escritorio1.jpg,ACTIVO,23CEDRO02CAOBA1322026,Cedro,Escritorio ,Caoba,Oficina de comandante ,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+2,MSIN/26-29/CS-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Comunicación social,C. RODRIGO RAMIREZ VIDAL,Escritorio2.jpg,ACTIVO,23CEDRO02CAOBA2322026,Cedro,Escritorio ,Caoba,Oficina de comunicacion social,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+3,MSIN/26-29/CONTR-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Contralor,C. ALBERTO MENDOZA RAMIREZ,Escritorio3.jpg,ACTIVO,23CEDRO02CAOBA3322026,Cedro,Escritorio ,Caoba,Oficina de contraloria,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+4,MSIN/26-29/DS-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Desarrollo social,C. ARTEMIO SANTOS VIDAL,Escritorio4.jpg,ACTIVO,23CEDRO02CAOBA4322026,Cedro,Escritorio ,Caoba,Oficina de desarrolloon social,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+5,MSIN/26-29/FISC-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Fiscalizacion,C.PRICILIANO GONZALEZ ROJAS,Escritorio5.jpg,ACTIVO,23CEDRO02CAOBA5322026,Cedro,Escritorio ,Caoba,Oficina de fiscalizacion,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+6,MSIN/26-29/FAGR-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Fomento agropecuario,C.CATALINO DOMINGUEZ ANTONIO,Escritorio6.jpg,ACTIVO,23CEDRO02CAOBA6322026,Cedro,Escritorio ,Caoba,Oficina de oficial mayor,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+7,MSIN/26-29/MGAN-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Mesa ganadera ,C.JONAS ANTONIO DE JESUS ,Escritorio7.jpg,ACTIVO,23CEDRO02CAOBA7322026,Cedro,Escritorio ,Caoba,Oficina de mesa ganadera,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+8,MSIN/26-29/OPUB-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Obras publicas,C.GENARO MORALES MESTEGA,Escritorio8.jpg,ACTIVO,23CEDRO02CAOBA8322026,Cedro,Escritorio ,Caoba,Oficina de obras publicas,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+9,MSIN/26-29/OPUB-ES/2,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Obras publicas,C.ROSA ALICIA MORENO FONSECA,Escritorio9.jpg,ACTIVO,23CEDRO02CAOBA9322026,Cedro,Escritorio ,Caoba,Oficina de obras publicas,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+10,MSIN/26-29/PLAN-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Planeacion ,C.A.RAFAEL LOPEZ RODRIGUEZ,Escritorio10.jpg,ACTIVO,23CEDRO02CAOBA10322026,Cedro,Escritorio ,Caoba,Oficina de planeacion,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+11,MSIN/26-29/SIND-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Sindica,C.TOBIAS HERNANDEZ SINFOROSO,Escritorio11.jpg,ACTIVO,23CEDRO02CAOBA11322026,Cedro,Escritorio ,Caoba,Oficina de sindicatura,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+12,MSIN/26-29/VEC-ES/1,Escritorio de madera de pino,"Escritorio de madera de 3 cajones de madera, color caoba ",Vectores,C.FRACISCO ANTONIO QUEZADA ALEAÑOS,Escritorio12.jpg,ACTIVO,23CEDRO02CAOBA12322026,Cedro,Escritorio ,Caoba,Oficina de oficial mayor,23/02/2026,NUEVO EN BUEN ESTADO,,,,Perfectas condiciones 
+13,MSV/26-29/OPUB A/001,,,,,,,,,,,,,,,,,
+14,MSV/26-29/OPUB A/002,,,,,,,,,,,,,,,,,
+15,MSV/26-29/OPUB A/003,,,,,,,,,,,,,,,,,
+16,MSV/26-29/OPUB A/004,,,,,,,,,,,,,,,,,
+17,MSV/26-29/OPUB A/005,,,,,,,,,,,,,,,,,
+18,MSV/26-29/OPUB A/006,,,,,,,,,,,,,,,,,
+19,MSV/26-29/OPUB A/007,,,,,,,,,,,,,,,,,
+20,MSV/26-29/OPUB A/008,,,,,,,,,,,,,,,,,
+21,MVS/26-29/OPUB A/009,,,,,,,,,,,,,,,,,
+22,MVS/26-29/OPUB A/010,,,,,,,,,,,,,,,,,
+23,,,,,,,,,,,,,,,,,,
+24,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
